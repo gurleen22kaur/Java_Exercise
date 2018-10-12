@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Implementing database class -->
+    <!--<bean id="database" class="com.spring.demo.Database">
+        <property name="name" value="mysql"></property>
+        <property name="port" value="3038"></property>
+    </bean>
+-->
+
+
+    <!-- Implementing autowire byName -->
+    <!--<bean id="expressTeaRestaurant" class="com.spring.demo.ExpressTea"/>
+    <bean id="teaRestaurant" class="com.spring.demo.Tea"/>
+    <bean id="restaurant" class="com.spring.demo.Restaurant" autowire="byName">
+    <property name="hotDrink" ref="teaRestaurant">
+    </property>
+    </bean>-->
+
+
+    <!-- Implementing autowire byType -->
+    <!--<bean id="TeaRestaurant" class="com.spring.demo.ExpressTea"/>
+        <bean id="restaurant" class="com.spring.demo.Restaurant" autowire="byType"/>
+-->
+
+
+
+    <!--Implementing autowire using constructor -->
+   <!-- <bean id="expressTeaRestaurant" class="com.spring.demo.ExpressTea"/>
+    <bean id="teaRestaurant" class="com.spring.demo.Tea"/>
+    <bean id="restaurant" class="com.spring.demo.Restaurant" autowire="constructor">
+        <constructor-arg ref="teaRestaurant"/>
+    </bean>-->
+
+
+    <!--Implementing inner bean -->
+    <!--<bean id="restaurant" class="com.spring.demo.Restaurant" autowire="byName">
+        <property name="hotDrink" ref="teaRestaurant">
+            <bean class="com.spring.demo.ExpressTea"></bean>
+        </property>
+       </bean>-->
+
+    <!-- making tea a protoptype class -->
+    <!--<bean id="teaRestaurant" class="com.spring.demo.Tea" scope="prototype"/>-->
+
+
+
+    <!-- Beans for Complex Class -->
+    <!--<bean id="collection" class="com.spring.demo.Complex">
+        <property name="list">
+            <list>
+                <value>9</value>
+                <value>18</value>
+                <value>27</value>
+                <value>36</value>
+                <value>45</value>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>10</value>
+                <value>20</value>
+                <value>30</value>
+                <value>40</value>
+                <value>50</value>
+            </set>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="1" value="Apple"/>
+                <entry key="2" value="Banana"/>
+                <entry key="3" value="Mango"/>
+                <entry key="4" value="Papaya"/>
+                <entry key="5" value="Kiwi"/>
+            </map>
+        </property>
+
+    </bean>
+-->
+</beans>
