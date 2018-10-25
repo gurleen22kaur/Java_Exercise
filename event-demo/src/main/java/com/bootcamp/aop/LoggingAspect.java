@@ -63,7 +63,6 @@ public class LoggingAspect {
 
     //Question6
 
-
     @Before("execution(Integer getInteger(Integer))")
     void beforeAdvice(JoinPoint joinPoint) {
         System.out.println("Running before advice");

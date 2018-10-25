@@ -17,9 +17,9 @@
         <property name="name" value="mysql"></property>
     </bean>
 
+    <!--<bean class="com.bootcamp.Event.MyAspect"/>-->
     <bean class="com.bootcamp.Event.MultipleEventListeners"/>
     <bean id="customEventListener" class="com.bootcamp.Event.CustomEventListener">
-       <!-- <property name="" ref="database"></property>-->
     </bean>
 
 
