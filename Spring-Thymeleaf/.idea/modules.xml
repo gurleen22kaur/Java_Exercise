@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Thymeleaf.iml" filepath="$PROJECT_DIR$/Spring-Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Thymeleaf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Thymeleaf_main.iml" group="Spring-Thymeleaf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Thymeleaf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Thymeleaf_test.iml" group="Spring-Thymeleaf" />
+    </modules>
+  </component>
+</project>
